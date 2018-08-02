@@ -1,0 +1,43 @@
+///////////////////////////////////////////////////////
+// Sample off device test app
+///////////////////////////////////////////////////////
+mycloudsdk_external.py
+
+Description:
+This test app is a python script that  demonstrates the following functionality:
+ - get auth0 information for a user
+ - get user information
+ - get device information
+ - access device associated with the user account
+ - create folder and files on the device
+ - read content and metadata of file on device
+ - delete file on device
+
+Prerequisite:
+Must have a valid mycloud user account and an associated mycloud device.
+
+Usage:
+>python mycloudsdk_external.py
+
+Before running the script please add mycloud user account details listed here to the script.
+MYCLOUD_TEST_USER_NAME = '<username>'
+MYCLOUD_TEST_PASSWORD = '<password>'
+MYCLOUD_TEST_CLIENT_ID = '<client_id>'
+MYCLOUD_TEST_CLIENT_SECRET = '<client_secret>'
+
+
+///////////////////////////////////////////////////////
+// App Install script for ondevice app
+///////////////////////////////////////////////////////
+Description:
+This is a python script that demonstrates the following functionality:
+ - install the ondevice android app on MyCloud device
+ - uninstall the ondevice android app from MyCloud device
+
+Prerequisite:
+Must have a valid mycloud user account and an associated mycloud device.
+Make sure the MyCloud device is on the same network as the computer running the installation script.
+Update the install_script.py with your MyCloud account details.
+
+Usage:
+>python install_script.py
